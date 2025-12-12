@@ -10,8 +10,8 @@ This Power BI dashboard fetches **real-time and forecasted weather data** using 
 
 The dashboard helps users analyze:
 
-• Temperature & weather conditions
-• Air Quality Index (AQI)
+•Temperature & weather conditions
+•Air Quality Index (AQI)
 • Sunrise & sunset timings
 • Hourly and daily forecasts
 • Rain probability
