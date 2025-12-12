@@ -3,7 +3,7 @@
 A visually rich and fully interactive **Weather & Air Quality Dashboard** built using **Power BI** and real-time data from **WeatherAPI.com.**
 This project visualizes current weather conditions, hourly & daily forecasts, air quality indicators, sunrise & sunset times, and rain probability for multiple locations.
 
-##📘 About the Project
+📘 About the Project
 
 This Power BI dashboard fetches **real-time and forecasted weather data** using WeatherAPI. The main goal of this project is to provide a **clean, modern, dark-themed interface** to monitor weather and air quality conditions for any city.
 
