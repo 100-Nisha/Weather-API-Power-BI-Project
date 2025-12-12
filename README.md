@@ -10,42 +10,41 @@ This Power BI dashboard fetches **real-time and forecasted weather data** using 
 
 The dashboard helps users analyze:
 
-•Temperature & weather conditions
-•Air Quality Index (AQI)
-• Sunrise & sunset timings
-• Hourly and daily forecasts
-• Rain probability
-• Wind, humidity, pressure, visibility, UV index, and more
+✦ Temperature & weather conditions
+✦ Air Quality Index (AQI)
+✦ Sunrise & sunset timings
+✦ Hourly and daily forecasts
+✦ Rain probability
+✦ Wind, humidity, pressure, visibility, UV index, and more
 
 The project uses a parameterized API endpoint, allowing easy city-level customization.
 
 ## ⭐ Features
 
 ### 🌀 Current Weather Panel
-• Current temperature (°C)
-• Real-time weather condition (Mist, Cloudy, Sunny, etc.)
-• Last updated timestamp
-• Quick location switching
+✦ Current temperature (°C)
+✦ Real-time weather condition (Mist, Cloudy, Sunny, etc.)
+✦ Last updated timestamp
+✦ Quick location switching
 
 ## 📈 Forecast Section
-• 7-day weather forecast
-• Smooth temperature trend line
-• Day-by-day average temperature values
+✦ 7-day weather forecast
+✦ Smooth temperature trend line
+✦ Day-by-day average temperature values
 
 ## 🌅 Sunrise & Sunset
-• Clean card layout with icons
-• Automatically updated times per city
+✦ Clean card layout with icons
+✦ Automatically updated times per city
 
 ## 🌧️ Chance of Rain
-• Daily rain probability indicators
-• Percentage comparison across days
+✦ Daily rain probability indicators
+✦ Percentage comparison across days
 
-##🫁 Air Quality Index (AQI)
-
-• PM10, PM2.5
-• SO₂, NO₂
-• O₃, CO
-• Circular AQI gauge with color-coded health indicators
+## 🫁 Air Quality Index (AQI)
+✦ PM10, PM2.5
+✦ SO₂, NO₂
+✦ O₃, CO
+✦ Circular AQI gauge with color-coded health indicators
 
 ## 🌐 Data Source
 
@@ -53,27 +52,29 @@ This project uses the WeatherAPI Forecast Endpoint:
 (http://api.weatherapi.com/v1/forecast.json?key=YOUR_API_KEY&q={CITY_NAME}&days=7&aqi=yes&alerts=no)
 
 **Parameters Explained**
-• Parameter → 	Description
-• key       →   Personal WeatherAPI key (keep private)
-• q	        →   City name or coordinates
-• days      → 	Number of forecast days (7 used)
-• aqi       → 	Includes air quality data
-• alerts    → 	Weather alerts (disabled)
+
+| Parameter | Description                           |
+|----------|--------------------------------------- |
+| key      | Personal WeatherAPI key (keep private) |
+| q        | City name or coordinates               |
+| days     | Number of forecast days (7 used)       |
+| aqi      | Includes air quality data              |
+| alerts   | Weather alerts (disabled)              |
 
 ## 🧩 Data Model
 
 The data model is designed using Power BI **Model View**:
-• Locations (1) → (*) Current
-• Locations (1) → (*) Forecast_Days
-• Locations (1) → (*) Forecast_Hours
+✦ Locations (1) → (*) Current
+✦ Locations (1) → (*) Forecast_Days
+✦ Locations (1) → (*) Forecast_Hours
 
 A central **Locations** table enables accurate filtering and efficient DAX calculations across all visuals.
 
 ## 📥 Installation & Setup
 
-## #Requirements
-• Power BI Desktop (latest version)
-• WeatherAPI account (free tier)
+### Requirements
+✦ Power BI Desktop (latest version)
+✦ WeatherAPI account (free tier)
 
 ### Steps
 1. Clone the repository
@@ -85,21 +86,21 @@ A central **Locations** table enables accurate filtering and efficient DAX calcu
 
 ## 🚀 How to Use
 
-• Select a city (Bangalore, Pune, Chennai, Hyderabad, etc.)
-• Dashboard updates automatically:
-  • Current weather
-  • Hourly & daily forecast
-  • AQI metrics
-• Hover over charts for detailed insights
+✦ Select a city (Bangalore, Pune, Chennai, Hyderabad, etc.)
+✦ Dashboard updates automatically:
+  ✦ Current weather
+  ✦ Hourly & daily forecast
+  ✦ AQI metrics
+✦ Hover over charts for detailed insights
 
 ## 🖥️ Dashboard Overview
 
-• Modern dark theme with neon highlights
-• Glass-style KPI cards
-• Responsive and clean layout
-• Multiple insight panels for weather & AQI
+✦ Modern dark theme with neon highlights
+✦ Glass-style KPI cards
+✦ Responsive and clean layout
+✦ Multiple insight panels for weather & AQI
 
-##📸 Screenshots
+## 📸 Screenshots
 Main Dashboard View
 
 
