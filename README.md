@@ -17,35 +17,28 @@ The dashboard helps users analyze:
 ✦ Rain probability  
 ✦ Wind, humidity, pressure, visibility, UV index, and more  
 
-✦ Temperature & weather conditions
-✦ Air Quality Index (AQI)
-✦ Sunrise & sunset timings
-✦ Hourly and daily forecasts
-✦ Rain probability
-✦ Wind, humidity, pressure, visibility, UV index, and more
-
 The project uses a parameterized API endpoint, allowing easy city-level customization.
 
 ## ⭐ Features
 
 ### 🌀 Current Weather Panel
-✦ Current temperature (°C)
-✦ Real-time weather condition (Mist, Cloudy, Sunny, etc.)
-✦ Last updated timestamp
-✦ Quick location switching
+✦ Current temperature (°C)  
+✦ Real-time weather condition (Mist, Cloudy, Sunny, etc.)  
+✦ Last updated timestamp  
+✦ Quick location switching  
 
 ## 📈 Forecast Section
-✦ 7-day weather forecast
-✦ Smooth temperature trend line
-✦ Day-by-day average temperature values
+✦ 7-day weather forecast  
+✦ Smooth temperature trend line  
+✦ Day-by-day average temperature values  
 
 ## 🌅 Sunrise & Sunset
-✦ Clean card layout with icons
-✦ Automatically updated times per city
+✦ Clean card layout with icons  
+✦ Automatically updated times per city  
 
 ## 🌧️ Chance of Rain
-✦ Daily rain probability indicators
-✦ Percentage comparison across days
+✦ Daily rain probability indicators  
+✦ Percentage comparison across days  
 
 ## 🫁 Air Quality Index (AQI)
 ✦ PM10, PM2.5
@@ -71,8 +64,8 @@ This project uses the WeatherAPI Forecast Endpoint:
 ## 🧩 Data Model
 
 The data model is designed using Power BI **Model View**:
-✦ Locations (1) → (*) Current
-✦ Locations (1) → (*) Forecast_Days
+✦ Locations (1) → (*) Current  
+✦ Locations (1) → (*) Forecast_Days  
 ✦ Locations (1) → (*) Forecast_Hours
 
 A central **Locations** table enables accurate filtering and efficient DAX calculations across all visuals.
@@ -80,8 +73,8 @@ A central **Locations** table enables accurate filtering and efficient DAX calcu
 ## 📥 Installation & Setup
 
 ### Requirements
-✦ Power BI Desktop (latest version)
-✦ WeatherAPI account (free tier)
+✦ Power BI Desktop (latest version)  
+✦ WeatherAPI account (free tier) 
 
 ### Steps
 1. Clone the repository
@@ -93,19 +86,19 @@ A central **Locations** table enables accurate filtering and efficient DAX calcu
 
 ## 🚀 How to Use
 
-✦ Select a city (Bangalore, Pune, Chennai, Hyderabad, etc.)
-✦ Dashboard updates automatically:
-  ✦ Current weather
-  ✦ Hourly & daily forecast
-  ✦ AQI metrics
-✦ Hover over charts for detailed insights
+✦ Select a city (Bangalore, Pune, Chennai, Hyderabad, etc.)  
+✦ Dashboard updates automatically:  
+  ✦ Current weather  
+  ✦ Hourly & daily forecast  
+  ✦ AQI metrics  
+✦ Hover over charts for detailed insights  
 
 ## 🖥️ Dashboard Overview
 
-✦ Modern dark theme with neon highlights
-✦ Glass-style KPI cards
-✦ Responsive and clean layout
-✦ Multiple insight panels for weather & AQI
+✦ Modern dark theme with neon highlights  
+✦ Glass-style KPI cards  
+✦ Responsive and clean layout  
+✦ Multiple insight panels for weather & AQI  
 
 ## 📸 Screenshots
 Main Dashboard View
