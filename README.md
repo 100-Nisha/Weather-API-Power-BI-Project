@@ -107,4 +107,5 @@ Main Dashboard View
 
 Data Model View
 
-![Image Alt](https://github.com/100-Nisha/Weather-API-Power-BI-Project/blob/main/img3.png?raw=true)
+feel free to explore the .pbix file and adapt it to your own customer datasets. Get interactive Report:
+(https://app.powerbi.com/groups/me/reports/f2c14bc9-fb10-46c6-9daa-49cc76e63f2e/a6d2b11f00c413ee23b1?experience=power-bi)
