@@ -106,3 +106,5 @@ Main Dashboard View
 ![Image Alt](https://raw.githubusercontent.com/100-Nisha/Weather-API-Power-BI-Project/e75472a98c07579e76315dad6b916f75a5c8e7b2/Dashboard%20img.png)
 
 Data Model View
+
+![Image Alt](https://github.com/100-Nisha/Weather-API-Power-BI-Project/blob/main/img3.png?raw=true)
